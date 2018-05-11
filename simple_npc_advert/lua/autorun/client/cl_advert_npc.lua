@@ -1,7 +1,7 @@
 net.Receive("NPCADVERT",function()
 
 local Adv_Frame = vgui.Create( "DFrame" )
-    npc = net.ReadEntity()
+        local npc = net.ReadEntity()
 
 	Adv_Frame:SetTitle( "" )
 	Adv_Frame:SetDraggable( true )
